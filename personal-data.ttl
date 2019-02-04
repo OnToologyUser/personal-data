@@ -4,20 +4,19 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <https://w3id.org/priv/personal-data> .
 
 <https://w3id.org/priv/personal-data> rdf:type owl:Ontology ;
                                        owl:versionIRI <https://w3id.org/priv/personal-data/0.0.1> ;
-                                       rdfs:label "Personal Data Categories"@en .
+                                       dc:title "Personal Data Categories"@en .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
-###  http://purl.org/dc/elements/1.1/description
-dc:description rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -282,7 +281,10 @@ dc:description rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/priv/personal-data#External
 :External rdf:type owl:Class ;
-          rdfs:subClassOf :PersonalData .
+          rdfs:subClassOf :PersonalData ;
+          rdfs:comment "<-- Harsh will add into this -->"@en ;
+          rdfs:isDefinedBy "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en ;
+          rdfs:label "External"@en .
 
 
 ###  https://w3id.org/priv/personal-data#Extraversion
@@ -332,7 +334,10 @@ dc:description rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/priv/personal-data#Financial
 :Financial rdf:type owl:Class ;
-           rdfs:subClassOf :PersonalData .
+           rdfs:subClassOf :PersonalData ;
+           rdfs:comment "<-- Harsh will add into this -->"@en ;
+           rdfs:isDefinedBy "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en ;
+           rdfs:label "Financial"@en .
 
 
 ###  https://w3id.org/priv/personal-data#Fingerprints
@@ -362,7 +367,9 @@ dc:description rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/priv/personal-data#Generic
 :Generic rdf:type owl:Class ;
-         rdfs:subClassOf :PersonalData .
+         rdfs:subClassOf :PersonalData ;
+         rdfs:comment "<-- Harsh will add into this -->"@en ;
+         rdfs:label "Generic"@en .
 
 
 ###  https://w3id.org/priv/personal-data#Geographic
@@ -393,17 +400,17 @@ dc:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/priv/personal-data#Historical
 :Historical rdf:type owl:Class ;
             rdfs:subClassOf :PersonalData ;
-            dc:description "<-- Harsh will add into this -->"@en ;
+            rdfs:comment "<-- Harsh will add into this -->"@en ;
+            rdfs:isDefinedBy "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en ;
             rdfs:label "Historical"@en .
 
 
 ###  https://w3id.org/priv/personal-data#History
 :History rdf:type owl:Class ;
          rdfs:subClassOf :Historical ;
-         dc:description "Information about an individual’s personal history"@en ;
-         rdfs:comment "events that happened in a person’s life, either to them or just around them which might have influenced them (WWII, 9/11)"@en ;
-         rdfs:label "History"@en ;
-         rdfs:seeAlso "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf" .
+         rdfs:comment "Information about an individual’s personal history (e.g., events that happened in a person’s life, either to them or just around them which might have influenced them (WWII, 9/11))."@en ;
+         rdfs:isDefinedBy "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf" ;
+         rdfs:label "History"@en .
 
 
 ###  https://w3id.org/priv/personal-data#HousesOwned
@@ -453,7 +460,10 @@ dc:description rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/priv/personal-data#Internal
 :Internal rdf:type owl:Class ;
-          rdfs:subClassOf :PersonalData .
+          rdfs:subClassOf :PersonalData ;
+          rdfs:comment "<-- Harsh will add into this -->"@en ;
+          rdfs:isDefinedBy "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en ;
+          rdfs:label "Internal"@en .
 
 
 ###  https://w3id.org/priv/personal-data#Interviews
@@ -757,7 +767,10 @@ dc:description rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/priv/personal-data#Social
 :Social rdf:type owl:Class ;
-        rdfs:subClassOf :PersonalData .
+        rdfs:subClassOf :PersonalData ;
+        rdfs:comment "<-- Harsh will add into this -->"@en ;
+        rdfs:isDefinedBy "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en ;
+        rdfs:label "Social"@en .
 
 
 ###  https://w3id.org/priv/personal-data#SocialMediaCommunication
@@ -797,7 +810,10 @@ dc:description rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/priv/personal-data#Tracking
 :Tracking rdf:type owl:Class ;
-          rdfs:subClassOf :PersonalData .
+          rdfs:subClassOf :PersonalData ;
+          rdfs:comment "<-- Harsh will add into this -->"@en ;
+          rdfs:isDefinedBy "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en ;
+          rdfs:label "Tracking"@en .
 
 
 ###  https://w3id.org/priv/personal-data#Transactional
@@ -833,14 +849,6 @@ dc:description rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/priv/personal-data#Writings
 :Writings rdf:type owl:Class ;
           rdfs:subClassOf :Generic .
-
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  https://w3id.org/priv/resource/EnterPrivacy
-<https://w3id.org/priv/resource/EnterPrivacy> rdf:type owl:NamedIndividual .
 
 
 ###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
