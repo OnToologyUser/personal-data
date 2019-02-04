@@ -1,0 +1,1069 @@
+[ {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Personal Data Categories"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/priv/personal-data/0.0.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Accents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Languages"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Account",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Financial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#AccountIdentifiers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Account"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#AccountNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#AccountIdentifiers"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Acquantainces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#SocialNetwork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Agreeableness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FiveFactorModel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#ApartmentsOwned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#HousesOwned"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Associations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#SocialNetwork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Attitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Behavioral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Authentication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Internal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#BankAccount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Account"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Behavioral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#External"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Biometrics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#BloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#BrowserFingerprint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#DeviceBased"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#BrowsingBehaviour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Behavioral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CallLogs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Behavioral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CarsOwned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Ownership"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Certifications",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Charges",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Communication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Social"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CommunicationsMetadata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Connections",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#SocialNetwork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Conscientiousness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FiveFactorModel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Tracking"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Convictions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Credit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Financial"
+  }, {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CreditCapacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Credit"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CreditCardNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#AccountIdentifiers"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CreditRecords",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Credit"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CreditScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#CreditWorthiness"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CreditStanding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Credit"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#CreditWorthiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Credit"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Criminal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Social"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#DNACode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Demeanor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Behavioral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Demographic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#External"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#DeviceBased",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Tracking"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Dialects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Languages"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Disabilities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#DisciplinaryActions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Dislikes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Interests"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Divorces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FamilyStructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#DrugTestResults",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#EmailAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Contact"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#EmailContents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Communication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#EmploymentHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Ethnicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#External"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Evaluations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#External",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "<-- Harsh will add into this -->"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "External"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Extraversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FiveFactorModel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Family",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Social"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#FamilyHealthHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#HealthHistory"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#FamilyStructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Family"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#FavouriteColors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Favourites"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#FavouriteFoods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Favourites"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#FavouriteMusic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Favourites"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Favourites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Preferences"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Fetishes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Sexual"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Financial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "<-- Harsh will add into this -->"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Financial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Fingerprints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Biometrics"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#FiveFactorModel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Personality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Friends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#SocialNetwork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#GPSCoordinates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#GeneralReputation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Generic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "<-- Harsh will add into this -->"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Generic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Geographic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Demographic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#GroupMemberships",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#SocialNetwork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Health",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#HealthHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#HealthRecords",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Historical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Historical personal data is that which is related to or relevant for history or past events in the context of the person or their life."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Historical"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#HousesOwned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Ownership"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#IPAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#DeviceBased"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Identification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#External"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Income",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#IncomeBrackets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Demographic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#IndividualHealthHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#HealthHistory"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Intentions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Preferences"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Interactions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Interests",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Preferences"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Internal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "<-- Harsh will add into this -->"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Internal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Interviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Job",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#KnowledgeBelief",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Internal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Languages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Ethnicity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#LifeHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Information about an individual’s personal history (e.g., events that happened in a person’s life, either to them or just around them which might have influenced them (WWII, 9/11))."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Life History"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Historical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Likes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Interests"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#LinksClicked",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Behavioral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#LoanRecords",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Tracking"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#MACAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#DeviceBased"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#MaritalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Marriages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FamilyStructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#MeaningSeekers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PleasureSeeking"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#MedicalHealth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#External"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#MentalHealth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Health"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Neuroticism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FiveFactorModel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#OfficialID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Offspring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FamilyStructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Openness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FiveFactorModel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Opinions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Preferences"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Origin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Ethnicity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Ownership",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Financial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PIN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Authentication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Pardons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Parents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FamilyStructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Passwords",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Authentication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PersonalData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PersonalPossessions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Ownership"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Personality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Behavioral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PhilosophicalBeliefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#KnowledgeBelief"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PhysicalAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Contact"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PhysicalHealth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Health"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PhysicalTraits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Demographic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Picture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PleasureSeekers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PleasureSeeking"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PleasureSeeking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Personality"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PoliticalAffiliations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Preferences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Internal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Prescriptions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PrivacyPreferences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Preferences"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Proclivities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Sexual"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Professional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Social"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PublicLife",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Social"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Purchases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#PurchasesAndSpendingHabits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Race",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Ethnicity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#References",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Relationships",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Family"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Religion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#ReligiousBeliefs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#KnowledgeBelief"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Retina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Biometrics"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#RoomNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Salary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Sales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#School",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#SecretText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Authentication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Sexual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#External"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#SexualHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Sexual"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#SexualPreference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Sexual"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Siblings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#FamilyStructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Social",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "<-- Harsh will add into this -->"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Social"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#SocialMediaCommunication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Communication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#SocialNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Social"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#SocialStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Taxes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#TelephoneNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Contact"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#TelephoneRecordings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Communication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Thoughts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#KnowledgeBelief"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Tracking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "<-- Harsh will add into this -->"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tracking"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Transactional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Financial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Transactions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Transactional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#UID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Username",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#VoiceMail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Communication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#WorkHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Professional"
+  } ]
+}, {
+  "@id" : "https://w3id.org/priv/personal-data#Writings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/priv/personal-data#Generic"
+  } ]
+} ]

@@ -1,0 +1,1522 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/priv/personal-data#"
+     xml:base="https://w3id.org/priv/personal-data"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/priv/personal-data">
+        <owl:versionIRI rdf:resource="https://w3id.org/priv/personal-data/0.0.1"/>
+        <dc:title xml:lang="en">Personal Data Categories</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Accents -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Accents">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Languages"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Account -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Account">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Financial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#AccountIdentifiers -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#AccountIdentifiers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Account"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#AccountNumber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#AccountNumber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#AccountIdentifiers"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Acquantainces -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Acquantainces">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#SocialNetwork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Agreeableness -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Agreeableness">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FiveFactorModel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#ApartmentsOwned -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#ApartmentsOwned">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#HousesOwned"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Associations -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Associations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#SocialNetwork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Attitude -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Attitude">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Authentication -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Authentication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#BankAccount -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#BankAccount">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Account"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Behavioral -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Behavioral">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#External"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Biometrics -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Biometrics">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#BloodType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#BloodType">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#BrowserFingerprint -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#BrowserFingerprint">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#DeviceBased"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#BrowsingBehaviour -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#BrowsingBehaviour">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CallLogs -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CallLogs">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CarsOwned -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CarsOwned">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Ownership"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Certifications -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Certifications">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Character -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Character">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Charges -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Charges">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Criminal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Communication -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Communication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CommunicationsMetadata -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CommunicationsMetadata">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Connections -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Connections">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#SocialNetwork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Conscientiousness -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Conscientiousness">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FiveFactorModel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Contact -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Contact">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Tracking"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Convictions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Convictions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Criminal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Country -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Country">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Credit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Credit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Financial"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CreditCapacity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CreditCapacity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Credit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CreditCardNumber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CreditCardNumber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#AccountIdentifiers"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CreditRecords -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CreditRecords">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Credit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CreditScore -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CreditScore">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#CreditWorthiness"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CreditStanding -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CreditStanding">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Credit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#CreditWorthiness -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#CreditWorthiness">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Credit"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Criminal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Criminal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#DNACode -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#DNACode">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Demeanor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Demeanor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Demographic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Demographic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#External"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#DeviceBased -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#DeviceBased">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Tracking"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Dialects -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Dialects">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Languages"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Disabilities -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Disabilities">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#DisciplinaryActions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#DisciplinaryActions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Dislikes -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Dislikes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Interests"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Divorces -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Divorces">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FamilyStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#DrugTestResults -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#DrugTestResults">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#EmailAddress -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#EmailAddress">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#EmailContents -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#EmailContents">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#EmploymentHistory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#EmploymentHistory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Ethnicity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Ethnicity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#External"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Evaluations -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Evaluations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#External -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#External">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PersonalData"/>
+        <rdfs:comment xml:lang="en">&lt;-- Harsh will add into this --&gt;</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">External</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Extraversion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Extraversion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FiveFactorModel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Family -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Family">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#FamilyHealthHistory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#FamilyHealthHistory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#HealthHistory"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#FamilyStructure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#FamilyStructure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Family"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#FavouriteColors -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#FavouriteColors">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Favourites"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#FavouriteFoods -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#FavouriteFoods">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Favourites"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#FavouriteMusic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#FavouriteMusic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Favourites"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Favourites -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Favourites">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Preferences"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Fetishes -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Fetishes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Sexual"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Financial -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Financial">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PersonalData"/>
+        <rdfs:comment xml:lang="en">&lt;-- Harsh will add into this --&gt;</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Financial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Fingerprints -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Fingerprints">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Biometrics"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#FiveFactorModel -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#FiveFactorModel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Personality"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Friends -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Friends">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#SocialNetwork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#GPSCoordinates -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#GPSCoordinates">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#GeneralReputation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#GeneralReputation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Generic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Generic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PersonalData"/>
+        <rdfs:comment xml:lang="en">&lt;-- Harsh will add into this --&gt;</rdfs:comment>
+        <rdfs:label xml:lang="en">Generic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Geographic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Geographic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Demographic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#GroupMemberships -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#GroupMemberships">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#SocialNetwork"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Health -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Health">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#HealthHistory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#HealthHistory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#HealthRecords -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#HealthRecords">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Historical -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Historical">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PersonalData"/>
+        <rdfs:comment xml:lang="en">Historical personal data is that which is related to or relevant for history or past events in the context of the person or their life.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"/>
+        <rdfs:label xml:lang="en">Historical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#HousesOwned -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#HousesOwned">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Ownership"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#IPAddress -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#IPAddress">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#DeviceBased"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Identification -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Identification">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#External"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Income -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Income">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#IncomeBrackets -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#IncomeBrackets">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Demographic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#IndividualHealthHistory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#IndividualHealthHistory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#HealthHistory"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Intentions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Intentions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Preferences"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Interactions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Interactions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Interests -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Interests">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Preferences"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Internal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Internal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PersonalData"/>
+        <rdfs:comment xml:lang="en">&lt;-- Harsh will add into this --&gt;</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Internal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Interviews -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Interviews">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Job -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Job">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#KnowledgeBelief -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#KnowledgeBelief">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Languages -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Languages">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Ethnicity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#LifeHistory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#LifeHistory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Historical"/>
+        <rdfs:comment xml:lang="en">Information about an individual’s personal history (e.g., events that happened in a person’s life, either to them or just around them which might have influenced them (WWII, 9/11)).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"/>
+        <rdfs:label xml:lang="en">Life History</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Likes -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Likes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Interests"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#LinksClicked -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#LinksClicked">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#LoanRecords -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#LoanRecords">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Location -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Location">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Tracking"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#MACAddress -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#MACAddress">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#DeviceBased"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#MaritalStatus -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#MaritalStatus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Marriages -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Marriages">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FamilyStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#MeaningSeekers -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#MeaningSeekers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PleasureSeeking"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#MedicalHealth -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#MedicalHealth">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#External"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#MentalHealth -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#MentalHealth">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Health"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Name -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Name">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Neuroticism -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Neuroticism">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FiveFactorModel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#OfficialID -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#OfficialID">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Offspring -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Offspring">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FamilyStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Openness -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Openness">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FiveFactorModel"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Opinions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Opinions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Preferences"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Origin -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Origin">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Ethnicity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Ownership -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Ownership">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Financial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PIN -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PIN">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Authentication"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Pardons -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Pardons">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Criminal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Parents -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Parents">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FamilyStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Passwords -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Passwords">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Authentication"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PersonalData -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PersonalData"/>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PersonalPossessions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PersonalPossessions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Ownership"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Personality -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Personality">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PhilosophicalBeliefs -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PhilosophicalBeliefs">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#KnowledgeBelief"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PhysicalAddress -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PhysicalAddress">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PhysicalHealth -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PhysicalHealth">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Health"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PhysicalTraits -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PhysicalTraits">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Demographic"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Picture -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Picture">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PleasureSeekers -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PleasureSeekers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PleasureSeeking"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PleasureSeeking -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PleasureSeeking">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Personality"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PoliticalAffiliations -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PoliticalAffiliations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Preferences -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Preferences">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Prescriptions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Prescriptions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#MedicalHealth"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PrivacyPreferences -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PrivacyPreferences">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Preferences"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Proclivities -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Proclivities">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Sexual"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Professional -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Professional">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PublicLife -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PublicLife">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Purchases -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Purchases">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#PurchasesAndSpendingHabits -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#PurchasesAndSpendingHabits">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Race -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Race">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Ethnicity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#References -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#References">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Relationships -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Relationships">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Family"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Religion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Religion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#ReligiousBeliefs -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#ReligiousBeliefs">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#KnowledgeBelief"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Retina -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Retina">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Biometrics"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#RoomNumber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#RoomNumber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Salary -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Salary">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Sales -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Sales">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#School -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#School">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#SecretText -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#SecretText">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Authentication"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Sexual -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Sexual">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#External"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#SexualHistory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#SexualHistory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Sexual"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#SexualPreference -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#SexualPreference">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Sexual"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Siblings -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Siblings">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#FamilyStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Social -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Social">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PersonalData"/>
+        <rdfs:comment xml:lang="en">&lt;-- Harsh will add into this --&gt;</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Social</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#SocialMediaCommunication -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#SocialMediaCommunication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#SocialNetwork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#SocialNetwork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#SocialStatus -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#SocialStatus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PublicLife"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Taxes -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Taxes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#TelephoneNumber -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#TelephoneNumber">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Contact"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#TelephoneRecordings -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#TelephoneRecordings">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Thoughts -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Thoughts">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#KnowledgeBelief"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Tracking -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Tracking">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#PersonalData"/>
+        <rdfs:comment xml:lang="en">&lt;-- Harsh will add into this --&gt;</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Tracking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Transactional -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Transactional">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Financial"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Transactions -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Transactions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Transactional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#UID -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#UID">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Username -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Username">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#VoiceMail -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#VoiceMail">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#WorkHistory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#WorkHistory">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Professional"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/priv/personal-data#Writings -->
+
+
+    <owl:Class rdf:about="https://w3id.org/priv/personal-data#Writings">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/priv/personal-data#Generic"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/ -->
+
+
