@@ -1,0 +1,692 @@
+<https://w3id.org/priv/personal-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/priv/personal-data> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/priv/personal-data/0.0.1> .
+<https://w3id.org/priv/personal-data> <http://purl.org/dc/elements/1.1/title> "Personal Data Categories"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/priv/personal-data#Accents
+<https://w3id.org/priv/personal-data#Accents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Accents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Languages> .
+# 
+# https://w3id.org/priv/personal-data#Account
+<https://w3id.org/priv/personal-data#Account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Account> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Financial> .
+# 
+# https://w3id.org/priv/personal-data#AccountIdentifiers
+<https://w3id.org/priv/personal-data#AccountIdentifiers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#AccountIdentifiers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Account> .
+# 
+# https://w3id.org/priv/personal-data#AccountNumber
+<https://w3id.org/priv/personal-data#AccountNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#AccountNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#AccountIdentifiers> .
+# 
+# https://w3id.org/priv/personal-data#Acquantainces
+<https://w3id.org/priv/personal-data#Acquantainces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Acquantainces> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#SocialNetwork> .
+# 
+# https://w3id.org/priv/personal-data#Agreeableness
+<https://w3id.org/priv/personal-data#Agreeableness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Agreeableness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FiveFactorModel> .
+# 
+# https://w3id.org/priv/personal-data#ApartmentsOwned
+<https://w3id.org/priv/personal-data#ApartmentsOwned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#ApartmentsOwned> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#HousesOwned> .
+# 
+# https://w3id.org/priv/personal-data#Associations
+<https://w3id.org/priv/personal-data#Associations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Associations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#SocialNetwork> .
+# 
+# https://w3id.org/priv/personal-data#Attitude
+<https://w3id.org/priv/personal-data#Attitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Attitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Behavioral> .
+# 
+# https://w3id.org/priv/personal-data#Authentication
+<https://w3id.org/priv/personal-data#Authentication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Authentication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Internal> .
+# 
+# https://w3id.org/priv/personal-data#BankAccount
+<https://w3id.org/priv/personal-data#BankAccount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#BankAccount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Account> .
+# 
+# https://w3id.org/priv/personal-data#Behavioral
+<https://w3id.org/priv/personal-data#Behavioral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Behavioral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#External> .
+# 
+# https://w3id.org/priv/personal-data#Biometrics
+<https://w3id.org/priv/personal-data#Biometrics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Biometrics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Identification> .
+# 
+# https://w3id.org/priv/personal-data#BloodType
+<https://w3id.org/priv/personal-data#BloodType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#BloodType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#BrowserFingerprint
+<https://w3id.org/priv/personal-data#BrowserFingerprint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#BrowserFingerprint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#DeviceBased> .
+# 
+# https://w3id.org/priv/personal-data#BrowsingBehaviour
+<https://w3id.org/priv/personal-data#BrowsingBehaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#BrowsingBehaviour> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Behavioral> .
+# 
+# https://w3id.org/priv/personal-data#CallLogs
+<https://w3id.org/priv/personal-data#CallLogs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CallLogs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Behavioral> .
+# 
+# https://w3id.org/priv/personal-data#CarsOwned
+<https://w3id.org/priv/personal-data#CarsOwned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CarsOwned> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Ownership> .
+# 
+# https://w3id.org/priv/personal-data#Certifications
+<https://w3id.org/priv/personal-data#Certifications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Certifications> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#Character
+<https://w3id.org/priv/personal-data#Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#Charges
+<https://w3id.org/priv/personal-data#Charges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Charges> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Criminal> .
+# 
+# https://w3id.org/priv/personal-data#Communication
+<https://w3id.org/priv/personal-data#Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Social> .
+# 
+# https://w3id.org/priv/personal-data#CommunicationsMetadata
+<https://w3id.org/priv/personal-data#CommunicationsMetadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CommunicationsMetadata> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#Connections
+<https://w3id.org/priv/personal-data#Connections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Connections> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#SocialNetwork> .
+# 
+# https://w3id.org/priv/personal-data#Conscientiousness
+<https://w3id.org/priv/personal-data#Conscientiousness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Conscientiousness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FiveFactorModel> .
+# 
+# https://w3id.org/priv/personal-data#Contact
+<https://w3id.org/priv/personal-data#Contact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Contact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Tracking> .
+# 
+# https://w3id.org/priv/personal-data#Convictions
+<https://w3id.org/priv/personal-data#Convictions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Convictions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Criminal> .
+# 
+# https://w3id.org/priv/personal-data#Country
+<https://w3id.org/priv/personal-data#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Location> .
+# 
+# https://w3id.org/priv/personal-data#Credit
+<https://w3id.org/priv/personal-data#Credit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Credit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Financial> .
+<https://w3id.org/priv/personal-data#Credit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#CreditCapacity
+<https://w3id.org/priv/personal-data#CreditCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CreditCapacity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Credit> .
+# 
+# https://w3id.org/priv/personal-data#CreditCardNumber
+<https://w3id.org/priv/personal-data#CreditCardNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CreditCardNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#AccountIdentifiers> .
+# 
+# https://w3id.org/priv/personal-data#CreditRecords
+<https://w3id.org/priv/personal-data#CreditRecords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CreditRecords> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Credit> .
+# 
+# https://w3id.org/priv/personal-data#CreditScore
+<https://w3id.org/priv/personal-data#CreditScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CreditScore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#CreditWorthiness> .
+# 
+# https://w3id.org/priv/personal-data#CreditStanding
+<https://w3id.org/priv/personal-data#CreditStanding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CreditStanding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Credit> .
+# 
+# https://w3id.org/priv/personal-data#CreditWorthiness
+<https://w3id.org/priv/personal-data#CreditWorthiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#CreditWorthiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Credit> .
+# 
+# https://w3id.org/priv/personal-data#Criminal
+<https://w3id.org/priv/personal-data#Criminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Criminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Social> .
+# 
+# https://w3id.org/priv/personal-data#DNACode
+<https://w3id.org/priv/personal-data#DNACode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#DNACode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#Demeanor
+<https://w3id.org/priv/personal-data#Demeanor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Demeanor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Behavioral> .
+# 
+# https://w3id.org/priv/personal-data#Demographic
+<https://w3id.org/priv/personal-data#Demographic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Demographic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#External> .
+# 
+# https://w3id.org/priv/personal-data#DeviceBased
+<https://w3id.org/priv/personal-data#DeviceBased> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#DeviceBased> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Tracking> .
+# 
+# https://w3id.org/priv/personal-data#Dialects
+<https://w3id.org/priv/personal-data#Dialects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Dialects> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Languages> .
+# 
+# https://w3id.org/priv/personal-data#Disabilities
+<https://w3id.org/priv/personal-data#Disabilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Disabilities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#DisciplinaryActions
+<https://w3id.org/priv/personal-data#DisciplinaryActions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#DisciplinaryActions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#Dislikes
+<https://w3id.org/priv/personal-data#Dislikes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Dislikes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Interests> .
+# 
+# https://w3id.org/priv/personal-data#Divorces
+<https://w3id.org/priv/personal-data#Divorces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Divorces> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FamilyStructure> .
+# 
+# https://w3id.org/priv/personal-data#DrugTestResults
+<https://w3id.org/priv/personal-data#DrugTestResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#DrugTestResults> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#EmailAddress
+<https://w3id.org/priv/personal-data#EmailAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#EmailAddress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Contact> .
+# 
+# https://w3id.org/priv/personal-data#EmailContents
+<https://w3id.org/priv/personal-data#EmailContents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#EmailContents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Communication> .
+# 
+# https://w3id.org/priv/personal-data#EmploymentHistory
+<https://w3id.org/priv/personal-data#EmploymentHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#EmploymentHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#Ethnicity
+<https://w3id.org/priv/personal-data#Ethnicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Ethnicity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#External> .
+# 
+# https://w3id.org/priv/personal-data#Evaluations
+<https://w3id.org/priv/personal-data#Evaluations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Evaluations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#External
+<https://w3id.org/priv/personal-data#External> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#External> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PersonalData> .
+<https://w3id.org/priv/personal-data#External> <http://www.w3.org/2000/01/rdf-schema#comment> "<-- Harsh will add into this -->"@en .
+<https://w3id.org/priv/personal-data#External> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en .
+<https://w3id.org/priv/personal-data#External> <http://www.w3.org/2000/01/rdf-schema#label> "External"@en .
+# 
+# https://w3id.org/priv/personal-data#Extraversion
+<https://w3id.org/priv/personal-data#Extraversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Extraversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FiveFactorModel> .
+# 
+# https://w3id.org/priv/personal-data#Family
+<https://w3id.org/priv/personal-data#Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Family> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Social> .
+# 
+# https://w3id.org/priv/personal-data#FamilyHealthHistory
+<https://w3id.org/priv/personal-data#FamilyHealthHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#FamilyHealthHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#HealthHistory> .
+# 
+# https://w3id.org/priv/personal-data#FamilyStructure
+<https://w3id.org/priv/personal-data#FamilyStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#FamilyStructure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Family> .
+# 
+# https://w3id.org/priv/personal-data#FavouriteColors
+<https://w3id.org/priv/personal-data#FavouriteColors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#FavouriteColors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Favourites> .
+# 
+# https://w3id.org/priv/personal-data#FavouriteFoods
+<https://w3id.org/priv/personal-data#FavouriteFoods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#FavouriteFoods> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Favourites> .
+# 
+# https://w3id.org/priv/personal-data#FavouriteMusic
+<https://w3id.org/priv/personal-data#FavouriteMusic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#FavouriteMusic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Favourites> .
+# 
+# https://w3id.org/priv/personal-data#Favourites
+<https://w3id.org/priv/personal-data#Favourites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Favourites> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Preferences> .
+# 
+# https://w3id.org/priv/personal-data#Fetishes
+<https://w3id.org/priv/personal-data#Fetishes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Fetishes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Sexual> .
+# 
+# https://w3id.org/priv/personal-data#Financial
+<https://w3id.org/priv/personal-data#Financial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Financial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PersonalData> .
+<https://w3id.org/priv/personal-data#Financial> <http://www.w3.org/2000/01/rdf-schema#comment> "<-- Harsh will add into this -->"@en .
+<https://w3id.org/priv/personal-data#Financial> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en .
+<https://w3id.org/priv/personal-data#Financial> <http://www.w3.org/2000/01/rdf-schema#label> "Financial"@en .
+# 
+# https://w3id.org/priv/personal-data#Fingerprints
+<https://w3id.org/priv/personal-data#Fingerprints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Fingerprints> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Biometrics> .
+# 
+# https://w3id.org/priv/personal-data#FiveFactorModel
+<https://w3id.org/priv/personal-data#FiveFactorModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#FiveFactorModel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Personality> .
+# 
+# https://w3id.org/priv/personal-data#Friends
+<https://w3id.org/priv/personal-data#Friends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Friends> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#SocialNetwork> .
+# 
+# https://w3id.org/priv/personal-data#GPSCoordinates
+<https://w3id.org/priv/personal-data#GPSCoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#GPSCoordinates> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Location> .
+# 
+# https://w3id.org/priv/personal-data#GeneralReputation
+<https://w3id.org/priv/personal-data#GeneralReputation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#GeneralReputation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#Generic
+<https://w3id.org/priv/personal-data#Generic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Generic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PersonalData> .
+<https://w3id.org/priv/personal-data#Generic> <http://www.w3.org/2000/01/rdf-schema#comment> "<-- Harsh will add into this -->"@en .
+<https://w3id.org/priv/personal-data#Generic> <http://www.w3.org/2000/01/rdf-schema#label> "Generic"@en .
+# 
+# https://w3id.org/priv/personal-data#Geographic
+<https://w3id.org/priv/personal-data#Geographic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Geographic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Demographic> .
+# 
+# https://w3id.org/priv/personal-data#GroupMemberships
+<https://w3id.org/priv/personal-data#GroupMemberships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#GroupMemberships> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#SocialNetwork> .
+# 
+# https://w3id.org/priv/personal-data#Health
+<https://w3id.org/priv/personal-data#Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Health> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#HealthHistory
+<https://w3id.org/priv/personal-data#HealthHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#HealthHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#HealthRecords
+<https://w3id.org/priv/personal-data#HealthRecords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#HealthRecords> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#Historical
+<https://w3id.org/priv/personal-data#Historical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Historical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PersonalData> .
+<https://w3id.org/priv/personal-data#Historical> <http://www.w3.org/2000/01/rdf-schema#comment> "Historical personal data is that which is related to or relevant for history or past events in the context of the person or their life."@en .
+<https://w3id.org/priv/personal-data#Historical> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf> .
+<https://w3id.org/priv/personal-data#Historical> <http://www.w3.org/2000/01/rdf-schema#label> "Historical"@en .
+# 
+# https://w3id.org/priv/personal-data#HousesOwned
+<https://w3id.org/priv/personal-data#HousesOwned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#HousesOwned> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Ownership> .
+# 
+# https://w3id.org/priv/personal-data#IPAddress
+<https://w3id.org/priv/personal-data#IPAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#IPAddress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#DeviceBased> .
+# 
+# https://w3id.org/priv/personal-data#Identification
+<https://w3id.org/priv/personal-data#Identification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Identification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#External> .
+# 
+# https://w3id.org/priv/personal-data#Income
+<https://w3id.org/priv/personal-data#Income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Income> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#IncomeBrackets
+<https://w3id.org/priv/personal-data#IncomeBrackets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#IncomeBrackets> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Demographic> .
+# 
+# https://w3id.org/priv/personal-data#IndividualHealthHistory
+<https://w3id.org/priv/personal-data#IndividualHealthHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#IndividualHealthHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#HealthHistory> .
+# 
+# https://w3id.org/priv/personal-data#Intentions
+<https://w3id.org/priv/personal-data#Intentions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Intentions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Preferences> .
+# 
+# https://w3id.org/priv/personal-data#Interactions
+<https://w3id.org/priv/personal-data#Interactions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Interactions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#Interests
+<https://w3id.org/priv/personal-data#Interests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Interests> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Preferences> .
+# 
+# https://w3id.org/priv/personal-data#Internal
+<https://w3id.org/priv/personal-data#Internal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Internal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PersonalData> .
+<https://w3id.org/priv/personal-data#Internal> <http://www.w3.org/2000/01/rdf-schema#comment> "<-- Harsh will add into this -->"@en .
+<https://w3id.org/priv/personal-data#Internal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en .
+<https://w3id.org/priv/personal-data#Internal> <http://www.w3.org/2000/01/rdf-schema#label> "Internal"@en .
+# 
+# https://w3id.org/priv/personal-data#Interviews
+<https://w3id.org/priv/personal-data#Interviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Interviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#Job
+<https://w3id.org/priv/personal-data#Job> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Job> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#KnowledgeBelief
+<https://w3id.org/priv/personal-data#KnowledgeBelief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#KnowledgeBelief> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Internal> .
+# 
+# https://w3id.org/priv/personal-data#Languages
+<https://w3id.org/priv/personal-data#Languages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Languages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Ethnicity> .
+# 
+# https://w3id.org/priv/personal-data#LifeHistory
+<https://w3id.org/priv/personal-data#LifeHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#LifeHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Historical> .
+<https://w3id.org/priv/personal-data#LifeHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about an individual’s personal history (e.g., events that happened in a person’s life, either to them or just around them which might have influenced them (WWII, 9/11))."@en .
+<https://w3id.org/priv/personal-data#LifeHistory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf> .
+<https://w3id.org/priv/personal-data#LifeHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Life History"@en .
+# 
+# https://w3id.org/priv/personal-data#Likes
+<https://w3id.org/priv/personal-data#Likes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Likes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Interests> .
+# 
+# https://w3id.org/priv/personal-data#LinksClicked
+<https://w3id.org/priv/personal-data#LinksClicked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#LinksClicked> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Behavioral> .
+# 
+# https://w3id.org/priv/personal-data#LoanRecords
+<https://w3id.org/priv/personal-data#LoanRecords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#LoanRecords> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#Location
+<https://w3id.org/priv/personal-data#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Tracking> .
+# 
+# https://w3id.org/priv/personal-data#MACAddress
+<https://w3id.org/priv/personal-data#MACAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#MACAddress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#DeviceBased> .
+# 
+# https://w3id.org/priv/personal-data#MaritalStatus
+<https://w3id.org/priv/personal-data#MaritalStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#MaritalStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#Marriages
+<https://w3id.org/priv/personal-data#Marriages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Marriages> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FamilyStructure> .
+# 
+# https://w3id.org/priv/personal-data#MeaningSeekers
+<https://w3id.org/priv/personal-data#MeaningSeekers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#MeaningSeekers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PleasureSeeking> .
+# 
+# https://w3id.org/priv/personal-data#MedicalHealth
+<https://w3id.org/priv/personal-data#MedicalHealth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#MedicalHealth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#External> .
+# 
+# https://w3id.org/priv/personal-data#MentalHealth
+<https://w3id.org/priv/personal-data#MentalHealth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#MentalHealth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Health> .
+# 
+# https://w3id.org/priv/personal-data#Name
+<https://w3id.org/priv/personal-data#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Identification> .
+# 
+# https://w3id.org/priv/personal-data#Neuroticism
+<https://w3id.org/priv/personal-data#Neuroticism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Neuroticism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FiveFactorModel> .
+# 
+# https://w3id.org/priv/personal-data#OfficialID
+<https://w3id.org/priv/personal-data#OfficialID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#OfficialID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Identification> .
+# 
+# https://w3id.org/priv/personal-data#Offspring
+<https://w3id.org/priv/personal-data#Offspring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Offspring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FamilyStructure> .
+# 
+# https://w3id.org/priv/personal-data#Openness
+<https://w3id.org/priv/personal-data#Openness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Openness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FiveFactorModel> .
+# 
+# https://w3id.org/priv/personal-data#Opinions
+<https://w3id.org/priv/personal-data#Opinions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Opinions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Preferences> .
+# 
+# https://w3id.org/priv/personal-data#Origin
+<https://w3id.org/priv/personal-data#Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Origin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Ethnicity> .
+# 
+# https://w3id.org/priv/personal-data#Ownership
+<https://w3id.org/priv/personal-data#Ownership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Ownership> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Financial> .
+# 
+# https://w3id.org/priv/personal-data#PIN
+<https://w3id.org/priv/personal-data#PIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PIN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Authentication> .
+# 
+# https://w3id.org/priv/personal-data#Pardons
+<https://w3id.org/priv/personal-data#Pardons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Pardons> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Criminal> .
+# 
+# https://w3id.org/priv/personal-data#Parents
+<https://w3id.org/priv/personal-data#Parents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Parents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FamilyStructure> .
+# 
+# https://w3id.org/priv/personal-data#Passwords
+<https://w3id.org/priv/personal-data#Passwords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Passwords> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Authentication> .
+# 
+# https://w3id.org/priv/personal-data#PersonalData
+<https://w3id.org/priv/personal-data#PersonalData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/priv/personal-data#PersonalPossessions
+<https://w3id.org/priv/personal-data#PersonalPossessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PersonalPossessions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Ownership> .
+# 
+# https://w3id.org/priv/personal-data#Personality
+<https://w3id.org/priv/personal-data#Personality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Personality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Behavioral> .
+# 
+# https://w3id.org/priv/personal-data#PhilosophicalBeliefs
+<https://w3id.org/priv/personal-data#PhilosophicalBeliefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PhilosophicalBeliefs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#KnowledgeBelief> .
+# 
+# https://w3id.org/priv/personal-data#PhysicalAddress
+<https://w3id.org/priv/personal-data#PhysicalAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PhysicalAddress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Contact> .
+# 
+# https://w3id.org/priv/personal-data#PhysicalHealth
+<https://w3id.org/priv/personal-data#PhysicalHealth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PhysicalHealth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Health> .
+# 
+# https://w3id.org/priv/personal-data#PhysicalTraits
+<https://w3id.org/priv/personal-data#PhysicalTraits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PhysicalTraits> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Demographic> .
+# 
+# https://w3id.org/priv/personal-data#Picture
+<https://w3id.org/priv/personal-data#Picture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Picture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Identification> .
+# 
+# https://w3id.org/priv/personal-data#PleasureSeekers
+<https://w3id.org/priv/personal-data#PleasureSeekers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PleasureSeekers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PleasureSeeking> .
+# 
+# https://w3id.org/priv/personal-data#PleasureSeeking
+<https://w3id.org/priv/personal-data#PleasureSeeking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PleasureSeeking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Personality> .
+# 
+# https://w3id.org/priv/personal-data#PoliticalAffiliations
+<https://w3id.org/priv/personal-data#PoliticalAffiliations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PoliticalAffiliations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#Preferences
+<https://w3id.org/priv/personal-data#Preferences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Preferences> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Internal> .
+# 
+# https://w3id.org/priv/personal-data#Prescriptions
+<https://w3id.org/priv/personal-data#Prescriptions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Prescriptions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#MedicalHealth> .
+# 
+# https://w3id.org/priv/personal-data#PrivacyPreferences
+<https://w3id.org/priv/personal-data#PrivacyPreferences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PrivacyPreferences> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Preferences> .
+# 
+# https://w3id.org/priv/personal-data#Proclivities
+<https://w3id.org/priv/personal-data#Proclivities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Proclivities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Sexual> .
+# 
+# https://w3id.org/priv/personal-data#Professional
+<https://w3id.org/priv/personal-data#Professional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Professional> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Social> .
+# 
+# https://w3id.org/priv/personal-data#PublicLife
+<https://w3id.org/priv/personal-data#PublicLife> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PublicLife> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Social> .
+# 
+# https://w3id.org/priv/personal-data#Purchases
+<https://w3id.org/priv/personal-data#Purchases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Purchases> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#PurchasesAndSpendingHabits
+<https://w3id.org/priv/personal-data#PurchasesAndSpendingHabits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#PurchasesAndSpendingHabits> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#Race
+<https://w3id.org/priv/personal-data#Race> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Race> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Ethnicity> .
+# 
+# https://w3id.org/priv/personal-data#References
+<https://w3id.org/priv/personal-data#References> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#References> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#Relationships
+<https://w3id.org/priv/personal-data#Relationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Relationships> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Family> .
+# 
+# https://w3id.org/priv/personal-data#Religion
+<https://w3id.org/priv/personal-data#Religion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Religion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#ReligiousBeliefs
+<https://w3id.org/priv/personal-data#ReligiousBeliefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#ReligiousBeliefs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#KnowledgeBelief> .
+# 
+# https://w3id.org/priv/personal-data#Retina
+<https://w3id.org/priv/personal-data#Retina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Retina> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Biometrics> .
+# 
+# https://w3id.org/priv/personal-data#RoomNumber
+<https://w3id.org/priv/personal-data#RoomNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#RoomNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Location> .
+# 
+# https://w3id.org/priv/personal-data#Salary
+<https://w3id.org/priv/personal-data#Salary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Salary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#Sales
+<https://w3id.org/priv/personal-data#Sales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Sales> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#School
+<https://w3id.org/priv/personal-data#School> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#School> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#SecretText
+<https://w3id.org/priv/personal-data#SecretText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#SecretText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Authentication> .
+# 
+# https://w3id.org/priv/personal-data#Sexual
+<https://w3id.org/priv/personal-data#Sexual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Sexual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#External> .
+# 
+# https://w3id.org/priv/personal-data#SexualHistory
+<https://w3id.org/priv/personal-data#SexualHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#SexualHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Sexual> .
+# 
+# https://w3id.org/priv/personal-data#SexualPreference
+<https://w3id.org/priv/personal-data#SexualPreference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#SexualPreference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Sexual> .
+# 
+# https://w3id.org/priv/personal-data#Siblings
+<https://w3id.org/priv/personal-data#Siblings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Siblings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#FamilyStructure> .
+# 
+# https://w3id.org/priv/personal-data#Social
+<https://w3id.org/priv/personal-data#Social> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Social> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PersonalData> .
+<https://w3id.org/priv/personal-data#Social> <http://www.w3.org/2000/01/rdf-schema#comment> "<-- Harsh will add into this -->"@en .
+<https://w3id.org/priv/personal-data#Social> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en .
+<https://w3id.org/priv/personal-data#Social> <http://www.w3.org/2000/01/rdf-schema#label> "Social"@en .
+# 
+# https://w3id.org/priv/personal-data#SocialMediaCommunication
+<https://w3id.org/priv/personal-data#SocialMediaCommunication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#SocialMediaCommunication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Communication> .
+# 
+# https://w3id.org/priv/personal-data#SocialNetwork
+<https://w3id.org/priv/personal-data#SocialNetwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#SocialNetwork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Social> .
+# 
+# https://w3id.org/priv/personal-data#SocialStatus
+<https://w3id.org/priv/personal-data#SocialStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#SocialStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PublicLife> .
+# 
+# https://w3id.org/priv/personal-data#Taxes
+<https://w3id.org/priv/personal-data#Taxes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Taxes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#TelephoneNumber
+<https://w3id.org/priv/personal-data#TelephoneNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#TelephoneNumber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Contact> .
+# 
+# https://w3id.org/priv/personal-data#TelephoneRecordings
+<https://w3id.org/priv/personal-data#TelephoneRecordings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#TelephoneRecordings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Communication> .
+# 
+# https://w3id.org/priv/personal-data#Thoughts
+<https://w3id.org/priv/personal-data#Thoughts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Thoughts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#KnowledgeBelief> .
+# 
+# https://w3id.org/priv/personal-data#Tracking
+<https://w3id.org/priv/personal-data#Tracking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Tracking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#PersonalData> .
+<https://w3id.org/priv/personal-data#Tracking> <http://www.w3.org/2000/01/rdf-schema#comment> "<-- Harsh will add into this -->"@en .
+<https://w3id.org/priv/personal-data#Tracking> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://enterprivacy.com/wp-content/uploads/2018/09/Categories-of-Personal-Information.pdf"@en .
+<https://w3id.org/priv/personal-data#Tracking> <http://www.w3.org/2000/01/rdf-schema#label> "Tracking"@en .
+# 
+# https://w3id.org/priv/personal-data#Transactional
+<https://w3id.org/priv/personal-data#Transactional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Transactional> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Financial> .
+# 
+# https://w3id.org/priv/personal-data#Transactions
+<https://w3id.org/priv/personal-data#Transactions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Transactions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Transactional> .
+# 
+# https://w3id.org/priv/personal-data#UID
+<https://w3id.org/priv/personal-data#UID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#UID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Identification> .
+# 
+# https://w3id.org/priv/personal-data#Username
+<https://w3id.org/priv/personal-data#Username> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Username> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Identification> .
+# 
+# https://w3id.org/priv/personal-data#VoiceMail
+<https://w3id.org/priv/personal-data#VoiceMail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#VoiceMail> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Communication> .
+# 
+# https://w3id.org/priv/personal-data#WorkHistory
+<https://w3id.org/priv/personal-data#WorkHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#WorkHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Professional> .
+# 
+# https://w3id.org/priv/personal-data#Writings
+<https://w3id.org/priv/personal-data#Writings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/priv/personal-data#Writings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/priv/personal-data#Generic> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

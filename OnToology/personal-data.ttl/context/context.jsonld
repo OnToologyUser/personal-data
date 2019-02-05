@@ -1,0 +1,499 @@
+{
+  "@context" : {
+    "Username" : {
+      "@id" : "https://w3id.org/priv/personal-data#Username"
+    },
+    "MentalHealth" : {
+      "@id" : "https://w3id.org/priv/personal-data#MentalHealth"
+    },
+    "Interviews" : {
+      "@id" : "https://w3id.org/priv/personal-data#Interviews"
+    },
+    "Geographic" : {
+      "@id" : "https://w3id.org/priv/personal-data#Geographic"
+    },
+    "CarsOwned" : {
+      "@id" : "https://w3id.org/priv/personal-data#CarsOwned"
+    },
+    "Income" : {
+      "@id" : "https://w3id.org/priv/personal-data#Income"
+    },
+    "IncomeBrackets" : {
+      "@id" : "https://w3id.org/priv/personal-data#IncomeBrackets"
+    },
+    "Taxes" : {
+      "@id" : "https://w3id.org/priv/personal-data#Taxes"
+    },
+    "SocialMediaCommunication" : {
+      "@id" : "https://w3id.org/priv/personal-data#SocialMediaCommunication"
+    },
+    "Relationships" : {
+      "@id" : "https://w3id.org/priv/personal-data#Relationships"
+    },
+    "Communication" : {
+      "@id" : "https://w3id.org/priv/personal-data#Communication"
+    },
+    "RoomNumber" : {
+      "@id" : "https://w3id.org/priv/personal-data#RoomNumber"
+    },
+    "CreditCardNumber" : {
+      "@id" : "https://w3id.org/priv/personal-data#CreditCardNumber"
+    },
+    "Ethnicity" : {
+      "@id" : "https://w3id.org/priv/personal-data#Ethnicity"
+    },
+    "Sexual" : {
+      "@id" : "https://w3id.org/priv/personal-data#Sexual"
+    },
+    "Social" : {
+      "@id" : "https://w3id.org/priv/personal-data#Social"
+    },
+    "CreditStanding" : {
+      "@id" : "https://w3id.org/priv/personal-data#CreditStanding"
+    },
+    "TelephoneNumber" : {
+      "@id" : "https://w3id.org/priv/personal-data#TelephoneNumber"
+    },
+    "Country" : {
+      "@id" : "https://w3id.org/priv/personal-data#Country"
+    },
+    "Identification" : {
+      "@id" : "https://w3id.org/priv/personal-data#Identification"
+    },
+    "VoiceMail" : {
+      "@id" : "https://w3id.org/priv/personal-data#VoiceMail"
+    },
+    "Tracking" : {
+      "@id" : "https://w3id.org/priv/personal-data#Tracking"
+    },
+    "Health" : {
+      "@id" : "https://w3id.org/priv/personal-data#Health"
+    },
+    "Interactions" : {
+      "@id" : "https://w3id.org/priv/personal-data#Interactions"
+    },
+    "DisciplinaryActions" : {
+      "@id" : "https://w3id.org/priv/personal-data#DisciplinaryActions"
+    },
+    "AccountIdentifiers" : {
+      "@id" : "https://w3id.org/priv/personal-data#AccountIdentifiers"
+    },
+    "Generic" : {
+      "@id" : "https://w3id.org/priv/personal-data#Generic"
+    },
+    "SocialStatus" : {
+      "@id" : "https://w3id.org/priv/personal-data#SocialStatus"
+    },
+    "FiveFactorModel" : {
+      "@id" : "https://w3id.org/priv/personal-data#FiveFactorModel"
+    },
+    "PoliticalAffiliations" : {
+      "@id" : "https://w3id.org/priv/personal-data#PoliticalAffiliations"
+    },
+    "BankAccount" : {
+      "@id" : "https://w3id.org/priv/personal-data#BankAccount"
+    },
+    "Credit" : {
+      "@id" : "https://w3id.org/priv/personal-data#Credit"
+    },
+    "CreditScore" : {
+      "@id" : "https://w3id.org/priv/personal-data#CreditScore"
+    },
+    "Thoughts" : {
+      "@id" : "https://w3id.org/priv/personal-data#Thoughts"
+    },
+    "Siblings" : {
+      "@id" : "https://w3id.org/priv/personal-data#Siblings"
+    },
+    "Salary" : {
+      "@id" : "https://w3id.org/priv/personal-data#Salary"
+    },
+    "Passwords" : {
+      "@id" : "https://w3id.org/priv/personal-data#Passwords"
+    },
+    "PhysicalAddress" : {
+      "@id" : "https://w3id.org/priv/personal-data#PhysicalAddress"
+    },
+    "PIN" : {
+      "@id" : "https://w3id.org/priv/personal-data#PIN"
+    },
+    "BloodType" : {
+      "@id" : "https://w3id.org/priv/personal-data#BloodType"
+    },
+    "Languages" : {
+      "@id" : "https://w3id.org/priv/personal-data#Languages"
+    },
+    "IndividualHealthHistory" : {
+      "@id" : "https://w3id.org/priv/personal-data#IndividualHealthHistory"
+    },
+    "Professional" : {
+      "@id" : "https://w3id.org/priv/personal-data#Professional"
+    },
+    "SexualPreference" : {
+      "@id" : "https://w3id.org/priv/personal-data#SexualPreference"
+    },
+    "Transactions" : {
+      "@id" : "https://w3id.org/priv/personal-data#Transactions"
+    },
+    "Divorces" : {
+      "@id" : "https://w3id.org/priv/personal-data#Divorces"
+    },
+    "SexualHistory" : {
+      "@id" : "https://w3id.org/priv/personal-data#SexualHistory"
+    },
+    "MedicalHealth" : {
+      "@id" : "https://w3id.org/priv/personal-data#MedicalHealth"
+    },
+    "Writings" : {
+      "@id" : "https://w3id.org/priv/personal-data#Writings"
+    },
+    "PublicLife" : {
+      "@id" : "https://w3id.org/priv/personal-data#PublicLife"
+    },
+    "Likes" : {
+      "@id" : "https://w3id.org/priv/personal-data#Likes"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "AccountNumber" : {
+      "@id" : "https://w3id.org/priv/personal-data#AccountNumber"
+    },
+    "Prescriptions" : {
+      "@id" : "https://w3id.org/priv/personal-data#Prescriptions"
+    },
+    "Ownership" : {
+      "@id" : "https://w3id.org/priv/personal-data#Ownership"
+    },
+    "SecretText" : {
+      "@id" : "https://w3id.org/priv/personal-data#SecretText"
+    },
+    "Character" : {
+      "@id" : "https://w3id.org/priv/personal-data#Character"
+    },
+    "Offspring" : {
+      "@id" : "https://w3id.org/priv/personal-data#Offspring"
+    },
+    "FamilyStructure" : {
+      "@id" : "https://w3id.org/priv/personal-data#FamilyStructure"
+    },
+    "Neuroticism" : {
+      "@id" : "https://w3id.org/priv/personal-data#Neuroticism"
+    },
+    "Location" : {
+      "@id" : "https://w3id.org/priv/personal-data#Location"
+    },
+    "Demographic" : {
+      "@id" : "https://w3id.org/priv/personal-data#Demographic"
+    },
+    "DeviceBased" : {
+      "@id" : "https://w3id.org/priv/personal-data#DeviceBased"
+    },
+    "Origin" : {
+      "@id" : "https://w3id.org/priv/personal-data#Origin"
+    },
+    "Extraversion" : {
+      "@id" : "https://w3id.org/priv/personal-data#Extraversion"
+    },
+    "PhysicalTraits" : {
+      "@id" : "https://w3id.org/priv/personal-data#PhysicalTraits"
+    },
+    "Preferences" : {
+      "@id" : "https://w3id.org/priv/personal-data#Preferences"
+    },
+    "DNACode" : {
+      "@id" : "https://w3id.org/priv/personal-data#DNACode"
+    },
+    "TelephoneRecordings" : {
+      "@id" : "https://w3id.org/priv/personal-data#TelephoneRecordings"
+    },
+    "Contact" : {
+      "@id" : "https://w3id.org/priv/personal-data#Contact"
+    },
+    "Transactional" : {
+      "@id" : "https://w3id.org/priv/personal-data#Transactional"
+    },
+    "Certifications" : {
+      "@id" : "https://w3id.org/priv/personal-data#Certifications"
+    },
+    "Biometrics" : {
+      "@id" : "https://w3id.org/priv/personal-data#Biometrics"
+    },
+    "Favourites" : {
+      "@id" : "https://w3id.org/priv/personal-data#Favourites"
+    },
+    "MeaningSeekers" : {
+      "@id" : "https://w3id.org/priv/personal-data#MeaningSeekers"
+    },
+    "Agreeableness" : {
+      "@id" : "https://w3id.org/priv/personal-data#Agreeableness"
+    },
+    "Personality" : {
+      "@id" : "https://w3id.org/priv/personal-data#Personality"
+    },
+    "Race" : {
+      "@id" : "https://w3id.org/priv/personal-data#Race"
+    },
+    "ApartmentsOwned" : {
+      "@id" : "https://w3id.org/priv/personal-data#ApartmentsOwned"
+    },
+    "PleasureSeeking" : {
+      "@id" : "https://w3id.org/priv/personal-data#PleasureSeeking"
+    },
+    "Fetishes" : {
+      "@id" : "https://w3id.org/priv/personal-data#Fetishes"
+    },
+    "Accents" : {
+      "@id" : "https://w3id.org/priv/personal-data#Accents"
+    },
+    "Retina" : {
+      "@id" : "https://w3id.org/priv/personal-data#Retina"
+    },
+    "LinksClicked" : {
+      "@id" : "https://w3id.org/priv/personal-data#LinksClicked"
+    },
+    "FavouriteColors" : {
+      "@id" : "https://w3id.org/priv/personal-data#FavouriteColors"
+    },
+    "Convictions" : {
+      "@id" : "https://w3id.org/priv/personal-data#Convictions"
+    },
+    "EmailContents" : {
+      "@id" : "https://w3id.org/priv/personal-data#EmailContents"
+    },
+    "Connections" : {
+      "@id" : "https://w3id.org/priv/personal-data#Connections"
+    },
+    "PrivacyPreferences" : {
+      "@id" : "https://w3id.org/priv/personal-data#PrivacyPreferences"
+    },
+    "Picture" : {
+      "@id" : "https://w3id.org/priv/personal-data#Picture"
+    },
+    "HousesOwned" : {
+      "@id" : "https://w3id.org/priv/personal-data#HousesOwned"
+    },
+    "Interests" : {
+      "@id" : "https://w3id.org/priv/personal-data#Interests"
+    },
+    "References" : {
+      "@id" : "https://w3id.org/priv/personal-data#References"
+    },
+    "OfficialID" : {
+      "@id" : "https://w3id.org/priv/personal-data#OfficialID"
+    },
+    "FavouriteFoods" : {
+      "@id" : "https://w3id.org/priv/personal-data#FavouriteFoods"
+    },
+    "Dialects" : {
+      "@id" : "https://w3id.org/priv/personal-data#Dialects"
+    },
+    "Family" : {
+      "@id" : "https://w3id.org/priv/personal-data#Family"
+    },
+    "Intentions" : {
+      "@id" : "https://w3id.org/priv/personal-data#Intentions"
+    },
+    "Evaluations" : {
+      "@id" : "https://w3id.org/priv/personal-data#Evaluations"
+    },
+    "Account" : {
+      "@id" : "https://w3id.org/priv/personal-data#Account"
+    },
+    "BrowsingBehaviour" : {
+      "@id" : "https://w3id.org/priv/personal-data#BrowsingBehaviour"
+    },
+    "BrowserFingerprint" : {
+      "@id" : "https://w3id.org/priv/personal-data#BrowserFingerprint"
+    },
+    "Sales" : {
+      "@id" : "https://w3id.org/priv/personal-data#Sales"
+    },
+    "Conscientiousness" : {
+      "@id" : "https://w3id.org/priv/personal-data#Conscientiousness"
+    },
+    "PurchasesAndSpendingHabits" : {
+      "@id" : "https://w3id.org/priv/personal-data#PurchasesAndSpendingHabits"
+    },
+    "MACAddress" : {
+      "@id" : "https://w3id.org/priv/personal-data#MACAddress"
+    },
+    "HealthHistory" : {
+      "@id" : "https://w3id.org/priv/personal-data#HealthHistory"
+    },
+    "IPAddress" : {
+      "@id" : "https://w3id.org/priv/personal-data#IPAddress"
+    },
+    "LifeHistory" : {
+      "@id" : "https://w3id.org/priv/personal-data#LifeHistory"
+    },
+    "Attitude" : {
+      "@id" : "https://w3id.org/priv/personal-data#Attitude"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "GeneralReputation" : {
+      "@id" : "https://w3id.org/priv/personal-data#GeneralReputation"
+    },
+    "Proclivities" : {
+      "@id" : "https://w3id.org/priv/personal-data#Proclivities"
+    },
+    "Openness" : {
+      "@id" : "https://w3id.org/priv/personal-data#Openness"
+    },
+    "PhysicalHealth" : {
+      "@id" : "https://w3id.org/priv/personal-data#PhysicalHealth"
+    },
+    "Friends" : {
+      "@id" : "https://w3id.org/priv/personal-data#Friends"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "Religion" : {
+      "@id" : "https://w3id.org/priv/personal-data#Religion"
+    },
+    "LoanRecords" : {
+      "@id" : "https://w3id.org/priv/personal-data#LoanRecords"
+    },
+    "FavouriteMusic" : {
+      "@id" : "https://w3id.org/priv/personal-data#FavouriteMusic"
+    },
+    "Dislikes" : {
+      "@id" : "https://w3id.org/priv/personal-data#Dislikes"
+    },
+    "PersonalData" : {
+      "@id" : "https://w3id.org/priv/personal-data#PersonalData"
+    },
+    "MaritalStatus" : {
+      "@id" : "https://w3id.org/priv/personal-data#MaritalStatus"
+    },
+    "Disabilities" : {
+      "@id" : "https://w3id.org/priv/personal-data#Disabilities"
+    },
+    "Authentication" : {
+      "@id" : "https://w3id.org/priv/personal-data#Authentication"
+    },
+    "UID" : {
+      "@id" : "https://w3id.org/priv/personal-data#UID"
+    },
+    "Criminal" : {
+      "@id" : "https://w3id.org/priv/personal-data#Criminal"
+    },
+    "WorkHistory" : {
+      "@id" : "https://w3id.org/priv/personal-data#WorkHistory"
+    },
+    "DrugTestResults" : {
+      "@id" : "https://w3id.org/priv/personal-data#DrugTestResults"
+    },
+    "FamilyHealthHistory" : {
+      "@id" : "https://w3id.org/priv/personal-data#FamilyHealthHistory"
+    },
+    "School" : {
+      "@id" : "https://w3id.org/priv/personal-data#School"
+    },
+    "Purchases" : {
+      "@id" : "https://w3id.org/priv/personal-data#Purchases"
+    },
+    "GroupMemberships" : {
+      "@id" : "https://w3id.org/priv/personal-data#GroupMemberships"
+    },
+    "CreditWorthiness" : {
+      "@id" : "https://w3id.org/priv/personal-data#CreditWorthiness"
+    },
+    "SocialNetwork" : {
+      "@id" : "https://w3id.org/priv/personal-data#SocialNetwork"
+    },
+    "Internal" : {
+      "@id" : "https://w3id.org/priv/personal-data#Internal"
+    },
+    "Job" : {
+      "@id" : "https://w3id.org/priv/personal-data#Job"
+    },
+    "Associations" : {
+      "@id" : "https://w3id.org/priv/personal-data#Associations"
+    },
+    "PleasureSeekers" : {
+      "@id" : "https://w3id.org/priv/personal-data#PleasureSeekers"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Name" : {
+      "@id" : "https://w3id.org/priv/personal-data#Name"
+    },
+    "ReligiousBeliefs" : {
+      "@id" : "https://w3id.org/priv/personal-data#ReligiousBeliefs"
+    },
+    "KnowledgeBelief" : {
+      "@id" : "https://w3id.org/priv/personal-data#KnowledgeBelief"
+    },
+    "Financial" : {
+      "@id" : "https://w3id.org/priv/personal-data#Financial"
+    },
+    "GPSCoordinates" : {
+      "@id" : "https://w3id.org/priv/personal-data#GPSCoordinates"
+    },
+    "Charges" : {
+      "@id" : "https://w3id.org/priv/personal-data#Charges"
+    },
+    "Fingerprints" : {
+      "@id" : "https://w3id.org/priv/personal-data#Fingerprints"
+    },
+    "PhilosophicalBeliefs" : {
+      "@id" : "https://w3id.org/priv/personal-data#PhilosophicalBeliefs"
+    },
+    "Pardons" : {
+      "@id" : "https://w3id.org/priv/personal-data#Pardons"
+    },
+    "EmailAddress" : {
+      "@id" : "https://w3id.org/priv/personal-data#EmailAddress"
+    },
+    "Opinions" : {
+      "@id" : "https://w3id.org/priv/personal-data#Opinions"
+    },
+    "Parents" : {
+      "@id" : "https://w3id.org/priv/personal-data#Parents"
+    },
+    "CreditRecords" : {
+      "@id" : "https://w3id.org/priv/personal-data#CreditRecords"
+    },
+    "Behavioral" : {
+      "@id" : "https://w3id.org/priv/personal-data#Behavioral"
+    },
+    "CreditCapacity" : {
+      "@id" : "https://w3id.org/priv/personal-data#CreditCapacity"
+    },
+    "CallLogs" : {
+      "@id" : "https://w3id.org/priv/personal-data#CallLogs"
+    },
+    "PersonalPossessions" : {
+      "@id" : "https://w3id.org/priv/personal-data#PersonalPossessions"
+    },
+    "External" : {
+      "@id" : "https://w3id.org/priv/personal-data#External"
+    },
+    "EmploymentHistory" : {
+      "@id" : "https://w3id.org/priv/personal-data#EmploymentHistory"
+    },
+    "Acquantainces" : {
+      "@id" : "https://w3id.org/priv/personal-data#Acquantainces"
+    },
+    "HealthRecords" : {
+      "@id" : "https://w3id.org/priv/personal-data#HealthRecords"
+    },
+    "Demeanor" : {
+      "@id" : "https://w3id.org/priv/personal-data#Demeanor"
+    },
+    "Historical" : {
+      "@id" : "https://w3id.org/priv/personal-data#Historical"
+    },
+    "Marriages" : {
+      "@id" : "https://w3id.org/priv/personal-data#Marriages"
+    },
+    "CommunicationsMetadata" : {
+      "@id" : "https://w3id.org/priv/personal-data#CommunicationsMetadata"
+    }
+  }
+}
